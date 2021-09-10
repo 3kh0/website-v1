@@ -26,8 +26,8 @@ Currently we are revamping the whole site. We are adding CSS to the page!<br>
 You can view the project [here](https://github.com/3kh0/3kh0.github.io/projects/1)!
 
 ### Contributors:
-> [Vexify4](https://github.com/Vexify4)
+> [@Vexify4](https://github.com/Vexify4)
 
-> [Echo](https://github.com/3kh0)
+> [@Echo](https://github.com/3kh0)
 
 If you would like to help make a fork and show us what you got!
