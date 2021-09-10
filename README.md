@@ -3,13 +3,15 @@
 
 ## Badges<br>
 
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/3kh0/3kh0.github.io">
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/3kh0/3kh0.github.io">
-<img alt="GitHub forks" src="https://img.shields.io/github/forks/3kh0/3kh0.github.io">
+<p>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/3kh0/3kh0.github.io"> 
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/3kh0/3kh0.github.io"> 
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/3kh0/3kh0.github.io"> 
 <img alt="GitHub" src="https://img.shields.io/github/license/3kh0/3kh0.github.io">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/3kh0/3kh0.github.io">
 <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/3kh0/3kh0.github.io">
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/3kh0/3kh0.github.io">
+  </p>
 
 ## What is this?
 
