@@ -1,0 +1,136 @@
+<html>
+  <body>
+    <script language="JavaScript" type="text/javascript"> 
+
+//Comments Section
+//Jim Allen email: tjallen@pipeline.com 
+//Random Greeting Generator and its html and javascript code are
+//copyright 2001 by Thomas James Allen
+
+//script to generate random greetings
+function greetMe(){
+//check to see if personalized
+var cookievalue = getCookie('getyourwebsitehere');
+if (cookievalue == null){firstname = ""}else{firstname = cookievalue};
+//preload greetings
+var say = new Array();
+say[0] = "&nbsp;Welcome8";
+say[1] = "&nbsp;Hello8";
+say[2] = "&nbsp;Good to see you again8";
+say[3] = "&nbsp;What a pleasure it is to see you8";
+say[4] = "&nbsp;7Having a good time, we hope.";
+say[5] = "&nbsp;7Thanks for visiting.";
+say[6] = "&nbsp;Oh aren't you the bomb8";
+say[7] = "&nbsp;You are totally cool8";
+say[8] = "&nbsp;You da bomb8";
+say[9] = "&nbsp;We should do lunch sometime8";
+say[10] = "&nbsp;Yo8";
+say[11] = "&nbsp;Greetings8";
+say[12] = "&nbsp;Come on in8";
+say[13] = "&nbsp;Lovely to see you again8";
+say[14] = "&nbsp;7You made it.";
+say[15] = "&nbsp;7We're glad you're here.";
+say[16] = "&nbsp;Salutations8";
+say[17] = "&nbsp;Hope you'll be staying for lunch8";
+say[18] = "&nbsp;We are graced by your presence8";
+say[19] = "&nbsp;Hi8";
+say[20] = "&nbsp;Hi, how are you8";
+say[21] = "&nbsp;Have a nice visit8";
+say[22] = "&nbsp;Que pasa8";
+say[23] = "&nbsp;Come in, come in8";
+say[24] = "&nbsp;7You are thriving, I see.";
+say[25] = "&nbsp;7Seems like so long since we'd seen you.";
+say[26] = "&nbsp;We open our doors to you8";
+say[27] = "&nbsp;Stay a while8";
+say[28] = "&nbsp;Mouse right this way8";
+say[29] = "&nbsp;I\'ll tell the boss you\'re here8";
+
+//pick a random greeting
+var howmany = 30
+var bRand = 0;
+bRand = Math.random();
+bRand = Math.floor(bRand * howmany);
+//prepare the cookievalue
+if(firstname != ""){sayPers1 = ", " + firstname + ". "}else{sayPers1 = "."};
+if(firstname != ""){sayPers2 = firstname + ", "}else{sayPers2 = ""};
+//prepare and docwrite the greeting
+sayWhat = say[bRand];
+sayWhat = sayWhat.replace("8",sayPers1);
+sayWhat = sayWhat.replace("7",sayPers2);
+sayWhat = "<b>" + sayWhat + "<\/b>"
+document.write(sayWhat);
+document.close()
+}
+
+//below are the cookiemaker scripts
+//this sets any cookies to expire one year after today (in milliseconds!)
+var expiration = new Date();
+expiration.setTime(expiration.getTime() + 24*60*60*365*1000);
+
+//function for retrieving a cookie.
+function getCookie(name){
+var cname = name + "=";
+var dc = document.cookie;
+if (dc.length > 0) {
+begin = dc.indexOf(cname);
+if (begin != -1) {
+begin += cname.length;
+end = dc.indexOf(";", begin);
+if (end == -1) end = dc.length;
+return unescape(dc.substring(begin, end));
+}
+}
+return null;
+}
+
+//function for setting a cookie.
+function setCookie(name, value, expires, path, domain, secure) {
+document.cookie = name + "=" + escape(value) + 
+((expires == null) ? "" : "; expires=" + expires.toGMTString()) +
+((path == null) ? "" : "; path=" + path) +
+((domain == null) ? "" : "; domain=" + domain) +
+((secure == null) ? "" : "; secure");
+return true;
+}
+
+//function for deleting a cookie.
+function delCookie (name,path,domain) {
+if (getCookie(name)) {
+document.cookie = name + "=" +
+((path == null) ? "" : "; path=" + path) +
+((domain == null) ? "" : "; domain=" + domain) +
+"; expires=Thu, 01-Jan-70 00:00:01 GMT";
+}
+}
+
+//function to grab info from the cookiemaker form
+function grabInfo(){
+var cookinfo = document.reggy.info.value;
+return cookinfo;
+}
+
+//-->
+
+
+</script><script type="text/javascript">
+
+
+<!--
+greetMe();
+//-->
+
+
+</script>
+<form name="reggy" onsubmit="return setCookie('getyourwebsitehere" id="reggy">
+<table border="1" cellpadding="2" cellspacing="0">
+<tr>
+<td align="right"><b><font face="Arial, Helvetica, sans-serif">Your Name:</font></b></td>
+<td><input type="text" name="info" size="20" ></input></td>
+</tr>
+<tr>
+<td colspan="2">
+<center>
+<p class="buttongroup"><input type='submit' class="button" name="ss3" value='Enter' ></input></p>
+</center>
+  </body>
+</html>
