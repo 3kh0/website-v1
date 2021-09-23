@@ -32,5 +32,6 @@ a:visited {
   height: 200px;
 }
 .text1 {
+  text-align: center;
   padding-left: 2%;
 }
