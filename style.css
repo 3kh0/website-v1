@@ -1,7 +1,9 @@
 a:visited {
   color: blue;
 }
-
+body {
+  background-color: black;
+}
 .header {
    border: 16px solid DodgerBlue;
    border-radius: 16px;
