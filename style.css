@@ -8,10 +8,12 @@ body {
 .header {
    border: 16px solid DodgerBlue;
    border-radius: 16px;
+   color: white;
 }
 
 .text1 {
   font-size: 50px;
+  color: white;
 }
 
 .line {
