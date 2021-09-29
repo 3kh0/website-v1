@@ -3,6 +3,7 @@ a:visited {
 }
 body {
   background-color: black;
+  color: white;
 }
 .header {
    border: 16px solid DodgerBlue;
