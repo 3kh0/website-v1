@@ -1,12 +1,12 @@
 a {
-  color: white;
+  color: blue;
 }
 a:visited {
-  color: white;
+  color: blue;
 }
 body {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 .header {
    border: 16px solid DodgerBlue;
