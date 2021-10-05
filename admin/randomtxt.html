@@ -68,15 +68,19 @@ say[55] = "Feels bad man.";
 say[56] = "Now with games that are unblocked?";
 say[57] = "Now with great games!";
 say[58] = "How do you play tic-tac-toe?";
+say[59] = "Fortnite is cringe";
+say[60] = "You got games on your phone?";
+say[61] = "I am not gonna say anything.";
+say[62] = "Now with Minecraft!";
 
 //pick a random greeting
-var howmany = 59
+var howmany = 63
 var bRand = 0;
 bRand = Math.random();
 bRand = Math.floor(bRand * howmany);
 //prepare and docwrite the greeting
 sayWhat = say[bRand];
-sayWhat = "<b>" + sayWhat + "<\/b>"
+sayWhat = sayWhat
 document.write(sayWhat);
 document.close()
 }
