@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang=en>
+<head>
+<style>
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+body {
+  color: white;
+  background-color: black;
+}
+</style>
   <meta charset=utf-8>
   <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
   <title>Error 404 (Not Found)!!1</title>
+  </head>
+  <h1>404 Error</h1>
 
-
-  <p><b>404.</b> That’s an error.
-  <p>The requested URL <code>/error</code> was not found on this server. <br>
-     That’s all we know.<br>
-<br>
-Maybe some of these links will help you out:<br>
-<br>
+  <p>The requested URL or file was not found on this server. <br>
+  That’s all we know.</p>
+<p>You could try...</p>
 <ul>
-     <li>Go to the <a href="https://3kh0.github.io/">homepage</a>.</li>
-     <li>Recheck the URL</li>
-     <li>Open a issue on the site repo</li>
+     <li>Going to the <a href="/">homepage</a>.</li>
+     <li>Rechecking the URL.</li>
+     <li>Going to the GitHub repo.</li>
+     <li>Open a issue on the site repo.</li>
    </ul>
+  <h2>Stats for nerds</h2>
+  Requested URL: <code id="full"></code><br>
+  Requested file path: <code id="path"></code><br>
+  Error code: <code id="error"></code><br>
+  Host name: <code id="host"></code><br>
+  Protocal used: <code id="proto"></code><br>
+  
+  <script>
+document.getElementById("full").innerHTML = window.location.href;
+document.getElementById("path").innerHTML = window.location.pathname;
+document.getElementById("error").innerHTML = "404";
+document.getElementById("host").innerHTML = window.location.hostname;
+document.getElementById("proto").innerHTML = window.location.protocol;
+  </script>
+ </body>
+</html>
