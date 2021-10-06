@@ -1,7 +1,11 @@
+a {
+  color: blue;
+}
 a:visited {
   color: blue;
 }
 body {
+  color: black;
   background-color: white;
 }
 .header {
