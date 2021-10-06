@@ -29,4 +29,6 @@ You can view the project [here](https://github.com/3kh0/3kh0.github.io/projects/
 
 > [@Echo](https://github.com/3kh0)
 
+> [@Orion](https://github.com/the-0r10n)
+
 If you would like to help make a fork and show us what you got!
