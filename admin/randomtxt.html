@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	</head>
 <body>
 <script language="JavaScript" type="text/javascript"> 
 
 //script to generate random greetings
-function randomText() {
+function randomText(){
 //array splashes
-	var allNum = 65;
  var say = [];
  say[0] = "Welcome.";
  say[1] = "Hello!";
@@ -73,16 +70,13 @@ function randomText() {
  say[60] = "You got games on your phone?";
  say[61] = "I am not gonna say anything.";
  say[62] = "Now with Minecraft!";
- say[63] = "Stop commenting amogus!!!";
- say[64] = "burp",
+ say[63] = "";
 
 //pick a random greeting
-  var allNum = 65;
+	var howmany = 64
 	var bRand = 0;
 	bRand = Math.random();
-	bRand = Math.floor(bRand * allNum);
-	
-	console.log = allNum
+	bRand = Math.floor(bRand * howmany);
 //prepare and docwrite the greeting
 	sayWhat = say[bRand];
 	document.write(sayWhat);
@@ -93,15 +87,10 @@ function randomText() {
 }
 
 </script>
-<script type="text/javascript">
-	
-	randomText();
-	
-	</script>
+<script type="text/javascript">randomText();</script>
 <!-- Not used but may be used later...
   
   <p> onload="randomText()" id="splash"></p> 
-
 -->
 </body>
 </html>
