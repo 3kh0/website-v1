@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
-		<title>Random Text | 3kh0</title>
 	</head>
 <body>
 <script language="JavaScript" type="text/javascript"> 
@@ -10,6 +8,7 @@
 //script to generate random greetings
 function randomText() {
 //array splashes
+	var allNum = 65;
  var say = [];
  say[0] = "Welcome.";
  say[1] = "Hello!";
@@ -78,10 +77,12 @@ function randomText() {
  say[64] = "burp",
 
 //pick a random greeting
-	var howmany = 65
+  var allNum = 65;
 	var bRand = 0;
 	bRand = Math.random();
-	bRand = Math.floor(bRand * howmany);
+	bRand = Math.floor(bRand * allNum);
+	
+	console.log = allNum
 //prepare and docwrite the greeting
 	sayWhat = say[bRand];
 	document.write(sayWhat);
@@ -92,7 +93,11 @@ function randomText() {
 }
 
 </script>
-<script type="text/javascript">randomText();</script>
+<script type="text/javascript">
+	
+	randomText();
+	
+	</script>
 <!-- Not used but may be used later...
   
   <p> onload="randomText()" id="splash"></p> 
