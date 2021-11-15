@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: #eeeeee;
+}
+a {
+    color: #0000ee;
+}
+.container {
+    text-align: center;
+}
+.litem {
+    padding: 20px;
+    border: 2px solid #eeeeee;
+    border-radius: 10px;
+    display: block;
+    color: #eeeeee;
+    background-color: #161b22;
+    text-decoration: none;
+    margin: 10px auto;
+    width: 200px;
+}
+.expands {
+    background-color: #0d1117;
+    margin: 40px 160px;
+    overflow: hidden;
+    height: 50px;
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+}
+.expands:hover {
+    height: auto;
+}
+.stitle {
+    height: 50px;
+    line-height: 50px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #161b22;
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.scontent {
+    max-height: 1000px;
+    padding: 20px;
+}
+.scontent p {
+    margin: 0px;
+}
+.scontent a img[src*="heroku"] {
+    margin-top: 20px;
+}
