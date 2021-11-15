@@ -24,7 +24,8 @@
   </header>
   <body>
    <!--Nav bar-->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+     <div>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
 <div class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="row">
@@ -41,22 +42,24 @@
                     <div class="navbar-collapse collapse" id="mobile_menu">
                         <ul class="nav navbar-nav">
                             <li><a href="https://3kh0.github.io/">Home</a></li>
-                            <li><a href="https://3kh0.github.io/projects">Projects</a></li>
+                            <li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                 <li><a href="https://3kh0.github.io/navigator">Navgation</a></li>
+								 <li><a href="https://3kh0.github.io/proxies">Proxies</a></li>
+                                 <li><a href="https://3kh0.github.io/projects/games">Games</a></li>
+                                 <li><a href="https://3kh0.github.io/projects/games">Misc</a></li>
+				                 <li><a href="https://3kh0.github.io/projects">EVERYTHING!!!</a></li>
+                                </ul>
+                            </li>
                             <li><a href="https://3kh0.github.io/aboutme">About</a></li>
                             <li><a href="https://3kh0.github.io/support">Support me</a></li>
-                            <li class="active"><a href="https://3kh0.github.io/socials">Social pages</a></li>
+                            <li><a href="https://3kh0.github.io/socials">Social pages</a></li>
                             <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Cool Stuff <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                  <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Cool video</a></li>
                                  <li><a href="https://discord.com/invite/vF8BncMhHU">Discord Server</a></li>
                                  <li><a href="">Coming soon!</a></li>
                                 </ul>
-                            </li>
-                        </ul>
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <form action="" class="navbar-form">
-                                </form>
                             </li>
                         </ul>
 
@@ -70,6 +73,7 @@
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</div>
 <!--End nav bar-->
     <h1>3kh0's Socials</h1>
     <h2>Welcome to a list of my socials.</h2>
