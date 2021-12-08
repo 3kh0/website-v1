@@ -17,14 +17,18 @@
 <body>
 <h1>Hello world!</h1>
   <p id="domain"></p>
+  <p>Some more content here...</p>
 <script>
 var url = window.location.hostname;
   if (url == "3kh0.github.io") {
     alert("You are on the right page!")
+    document.getElementById("domain").innerHTML = window.location.hostname;
   } else {
     alert("Go to 3kh0.github.io instead!")
+     document.open("text/html","replace");
+     document.write("<h2>This domain is not allowed to have unlicenced games! Please go to <a href='https://3kh0.github.io'>3kh0.github.io</a> for unblocked games!</h2>");
+     document.close();
   }
-  document.getElementById("domain").innerHTML = window.location.hostname;
 </script>
 </body>
 </html>
