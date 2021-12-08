@@ -16,6 +16,7 @@
 </head>
 <body>
 <h1>Hello world!</h1>
+  <p id="domain"></p>
 <script>
 var url = window.location.hostname;
   if (url == "3kh0.github.io") {
@@ -23,7 +24,7 @@ var url = window.location.hostname;
   } else {
     alert("Go to 3kh0.github.io instead!")
   }
-  
+  document.getElementById("domain").innerHTML = window.location.hostname;
 </script>
 </body>
 </html>
