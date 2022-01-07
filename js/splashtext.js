@@ -1,5 +1,5 @@
 // script to generate random greetings
-function randomText(){
+function randomText(object) {
     // array splashes
      var say = [];
      say[0] = "Welcome.";
@@ -75,5 +75,5 @@ function randomText(){
     // prepare and docwrite the greeting
     sayWhat = say[bRand];
     // direct type in html p element
-    document.getElementById("splashtext").innerText = sayWhat;
+    object.innerText = sayWhat;
 }
