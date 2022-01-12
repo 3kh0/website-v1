@@ -1,0 +1,15 @@
+div.content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+mark.small {
+    background-color: transparent;
+    font-size: 20%;
+}
+
+p.sizereq {
+    width: 70%
+}
