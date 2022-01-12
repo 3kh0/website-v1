@@ -9,3 +9,7 @@ mark.small {
     background-color: transparent;
     font-size: 20%;
 }
+
+p.sizereq {
+    width: 70%
+}
