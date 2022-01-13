@@ -1,4 +1,4 @@
-# This repo most likey will not be improved anymore, if you are looking to help, go to the [website v2](https://github.com/3kh0/website-v2), if you have questions, hit me up on discord!<br>
+# This repo is not going to be worked on anymore, if you are looking to help, go to the [website v2](https://github.com/3kh0/website-v2), if you have questions, hit me up on discord!<br>
 
 # 3kh0.github.io<br>
 
